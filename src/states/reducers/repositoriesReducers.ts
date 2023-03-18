@@ -27,3 +27,4 @@ const reducer = (state:RepositoriesState=initialState,action:Action):Repositorie
 }
 
 export default reducer; 
+
