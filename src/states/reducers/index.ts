@@ -6,4 +6,5 @@ const reducers = combineReducers({
 });
 
 export default reducers;
+//this is the root state to be used in the store
 export type RootState = ReturnType<typeof reducers>;
