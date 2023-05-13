@@ -12,7 +12,7 @@ const initialState = {
     error:null,
     data:[]
 }
-
+//reducer to handle multiple actions
 const reducer = (state:RepositoriesState=initialState,action:Action):RepositoriesState => {
     switch(action.type){
         case ActionType.SEARCH_REPOSITORIES:
