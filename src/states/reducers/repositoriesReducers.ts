@@ -6,7 +6,7 @@ interface RepositoriesState {
   error: string | null;
   data: string[];
 }
-
+//this is the initial state 
 const initialState = {
     loading:false,
     error:null,
